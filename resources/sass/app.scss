@@ -1,0 +1,25 @@
+
+// Fonts
+// @import url('https://fonts.googleapis.com/css?family=Nunito');
+// @import url('https://unpkg.com/vue-select@latest/dist/vue-select.css');
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+@import url(https://unpkg.com/vue-select@latest/dist/vue-select.css);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import '../../public/dist/css/adminlte.min.css';
+// @import '../../public/assets/css/style.css';
+// @import '../../public/assets/css/custom.css';
+
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+// @import '~admin-lte/dist/css/adminlte.min.css';
+// @import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}

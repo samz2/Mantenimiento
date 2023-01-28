@@ -1,0 +1,6 @@
+Samaniego
+Fasabi 
+SELECT * FROM `alumno` WHERE concat_ws(" ",ApePaterno,ApeMaterno,Nombre) LIKE "%Samaniego%"
+update alumno set correo = 'cantoacostabenj@gmail.com' where concat_ws(' ' ,ApePaterno,ApeMaterno,Nombre) LIKE '%Canto Acosta Benjamin%';
+update alumno set correo = 'altamiranodominguesmariorenzo@gmail.com' where concat_ws(' ' ,ApePaterno,ApeMaterno,Nombre) LIKE '%Altamirano Dominguez Mario Renzo%';
+=CONCAT("update alumno set correo = '",C6,"' where concat_ws(' ' ,ApePaterno,ApeMaterno,Nombre) LIKE '%",B6,"%';")
